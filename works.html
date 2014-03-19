@@ -3,99 +3,135 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>Portfolio - My Works</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script src="assets/scripts/jquery-1.11.0.min.js"></script>
+    <script src="assets/scripts/jquery-ui.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
 </head>
-    
+
 <body>
-        <!-- <div class="header_container">
-            <div class="menu left_menu">
-                <ul>
-                    <li>
-                        <a class="menu_item">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="menu logo">
-                <ul>
-                    <li>
-                        <img src="http://www.parker.umbrella.al/light/wp-content/uploads/2014/02/logo.png">
-                        <img src="assets/images/logo.png">
-                    </li>
-                </ul>
-            </div>
-            <div class="menu right_menu">
-                <ul>
-                    <li>
-                        <a class="menu_item">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
-        <div class="main_container">
-            <div class="background_image">
-                <div class="content">
-                    <div class="intro_text text_center">
-                        <img src="assets/images/logo.png">
-                        <h3>Welcome to My Portfolio</h3>
-                        <p>We'are an architecture &amp; engineering company based in New York   </p>
-                    </div>
-                    <ul class="projects">
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                            <div class="caption_container">
-                                This is a caption
-                            </div>
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                        <li class="col-3">
-                            <img src="assets/images/stock/stock1.jpg">
-                        </li>
-                    </ul>
-                    <!-- <div class="menu text_center">
-                        <div class="menu_header">
-                            <h3>My Works</h3>
-                        </div>
-                        <div class="menu_image">
-                            <img src="assets/images/bg.jpg" style="width:300px">
-                        </div>
-                    </div>
-                    <div class="menu text_center">
-                        <div class="menu_header">
-                            <h3>About Me</h3>
-                        </div>
-                        <div class="menu_image">
-                            <img src="assets/images/bg.jpg" style="width:300px">
-                        </div>
-                    </div> -->
-                </div>
-            </div>
+    <div class="main-container">
+        <div class="header-container">
+            <ul class="header-navigation">
+                <li>
+                    <h2><a href="works.html">My Works</a></h2>
+                </li>
+                <li>
+                    <a href="index.html"><img src="assets/images/logo.png"></a>
+                </li>
+                <li>
+                    <h2><a href="#">About Me</a></h2>
+                    <br style="{clear:both}"/>
+                </li>
+                <!-- <div class="header-border"></div> -->
+            </ul>
         </div>
-        <div class="footer_container">
+        <div class="">
             <div class="content">
-                <p>
-                    2014 © CHESKA  - ALL RIGHTS RESERVED
-                    INFO@EXAMPLE.COM  /   00377 44 190 190
-                </p>
+                <!-- <img src="assets/images/logo.png"> --> 
+                <ul class="menu">
+                    <li class="work-item col-25 wor">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="work-item col-25">
+                        <a href="works.html" class="col-25">
+                            <div class="menu-image">
+                                <img src="assets/images/stock/stock1.jpg">
+                            </div>
+                        </a>
+                        <div class="menu-caption" style="display: none">
+                            <a href="works.html" class="col-25">
+                                <h2>March 19, 2014</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
+    <div class="footer-container">
+        <p>
+            2014 © <span class="pink"> Anne Cheska V. Delos Santos</span>    -    annechesca.delossantos@yahoo.com    /    0906 725 5031
+        </p>   
+    </div>
+
 </body>
 
 </html>

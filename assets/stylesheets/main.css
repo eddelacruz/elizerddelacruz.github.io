@@ -30,40 +30,106 @@ body {
     /*background-color: rgb(189, 229, 245);*/
     /*background-color: rgb(53, 71, 140); /*334a94*/
     /*background: #03013a url('../images/pat.jpg') repeat scroll top left;*/
-    background-color: #000;
-    height: 140px;
+    background-color: #1a1a1a;
+    /*background: #000 url('../images/header-bg.png') repeat-x scroll top left;*/
+    height: 160px;
     text-align: center;
-    display: inline-block;
-    width: 100%;
+    /*display: inline-table;*/
+    /*width: 100%;*/
+    position: relative;
+    white-space: nowrap;
     /*position: absolute;*/
     /*opacity:0.8;*/
     /*filter:alpha(opacity=80);*/
 }
 
-.header-container img {
-    top: 10%;
+.header-navigation {
+    width: 700px;
+    margin: 0px auto 0px auto;
+    list-style: none;
     position: relative;
+    display: inline-block;
+    text-align: center;
 }
 
-.header-container {
-    display: inline-block;
+.header-container a {
+    color: #ff177c;
+    text-decoration: none;
+}
+
+.header-container a:visited {
+    color: #ff177c;
+}
+
+.header-container li {
+    float: left;
+    padding: 0 10px 0 10px; 
+}
+
+.header-container h2 {
+    margin-top: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Nobile-Regular';
+    color: #ff177c;
+    /*font-size: 10px;*/
+    /*position: absolute;*/
+    /*float: left;*/
+}
+
+
+.header-container img {
+    margin-top: 3%;
+    /*position: relative;*/
+    /*float: left;*/
+    /*top: 5%;*/
+}
+
+.header-border {
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    border-style: solid;
+    border-width: thin;
+    border-color: pink;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 .intro-text {
+    /*color: #f26d7d;*/
+    /*color: #1a1a1a*/
     margin-top: 30px;
+    /*background-color: #000;*/
 }
 
 .background-image {
     /*background-image: );*/
     /*background-repeat: repeat-y;*/
     /*background-size: 200%*/
-    background: url('../images/bg6.jpg') top center repeat;
+    background: url('../images/stock/back6.jpg') top center repeat;
     /*background-attachment: fixed; */
     background-position: center;
+    background-size: 120%;
     /*opacity:0.7;*/
     /*filter:alpha(opacity=70);*/
     /* For IE8 and earlier */
     overflow: hidden;
+}
+
+.background-overlay {
+    top: 140px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a;
+    min-height: 640px;
+    padding: 20px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    z-index: 0;
 }
 
 .main-container {
@@ -73,15 +139,20 @@ body {
 .content {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
     width: 970px;
     height: 100%;
     min-height: 640px;
 }
 
-.menu img {
+.menu .col-45 img {
     position: absolute;
     width: 45%;
+}
+
+.menu .col-25 img {
+    position: absolute;
+    width: 25%;
 }
 
 .projects, .menu {
@@ -105,11 +176,29 @@ body {
     font-size: 14px;
 }
 
-.menu li {
+.menu > li {
     display: inline-block;
-    height: 390px;
     font-size: 14px;
     margin: 20px 20px 20px 20px;
+}
+
+.menu .menu-item {
+    height: 390px;
+}
+
+.menu .work-item {
+    display: inline-block;
+    height: 180px;
+    font-size: 14px;
+    margin: 20px 20px 20px 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: white;
 }
 
 .menu-title {
@@ -135,7 +224,8 @@ body {
 
 .menu-caption {
     position: absolute;
-    background-color: #000;
+    /*background-color: #ff50cb;*/
+    background-color: #1a1a1a;
     width: inherit;
     height: inherit;
     opacity:0.8;
@@ -154,8 +244,8 @@ body {
 }
 
 .ghost-title {
-    background-color: #000;
-    /*background-color: #4d4c4c;*/
+    /*background-color: #000;*/
+    background-color: #ff0062;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -165,6 +255,10 @@ body {
 
 .caption-container {
     position: absolute;
+}
+
+.col-25 {
+    width: 25%;
 }
 
 .col-3 {
@@ -180,11 +274,22 @@ body {
 }
 
 .footer-container {
-    background-color: #000;
+    background-color: #1a1a1a;
+    /*background-color: #ef397f;*/
     height: 60px;
 }
 
+span.pink {
+    color: #ef397f;
+}
+
+span.white {
+    color: #FFF;
+}
+
 .footer-container p {
+    color: #FFF;
+    text-align: center;
     margin: 0px;
     padding: 20px;
 }
