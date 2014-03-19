@@ -44,12 +44,20 @@ body {
 }
 
 .header-navigation {
+    padding: 0px;
     width: 700px;
     margin: 0px auto 0px auto;
     list-style: none;
-    position: relative;
-    display: inline-block;
+    /*position: relative;*/
+    /*display: inline-block;*/
     text-align: center;
+}
+
+.header-navigation li {
+    display: inline-block;
+    /*float: left;*/
+    /*position: relative;*/
+    /*padding: 0 10px 0 10px; */
 }
 
 .header-container a {
@@ -59,11 +67,6 @@ body {
 
 .header-container a:visited {
     color: #ff177c;
-}
-
-.header-container li {
-    float: left;
-    padding: 0 10px 0 10px; 
 }
 
 .header-container h2 {
@@ -79,7 +82,7 @@ body {
 
 
 .header-container img {
-    margin-top: 3%;
+    margin-top: 10px;
     /*position: relative;*/
     /*float: left;*/
     /*top: 5%;*/
