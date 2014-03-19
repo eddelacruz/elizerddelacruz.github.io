@@ -5,6 +5,10 @@ body {
     font-family: 'AleoRegular';
 }
 
+a:visited {
+    color: #000;
+}
+
 /*Fonts*/
 
 @font-face {
