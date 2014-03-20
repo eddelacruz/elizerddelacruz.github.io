@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   for (var i = 1; i < works; i+=1) {
     // $('ul.works').add('<li class="work-item col-25"><a href="works.html" class="col-25"><div class="menu-image"><img src="assets/images/works/work-1.jpg"></div></a><div class="menu-caption" style="display: none"><a href="works.html" class="col-25"><h2>March 19, 2014</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p></a></div></li>');
-    work += '<li class="work-item col-25"><a href="#" class="col-25 '+workLink+'"><div class="menu-image"><img src="assets/images/works/work-'+i+'.jpg"></div></a><div class="menu-caption" style="display: none"><a href="#" class="col-25 '+workLink+'"><h2></h2><p>Click to enlarge</p></a></div></li>';
+    work += '<li class="work-item col-25"><a href="#" class="col-25 '+workLink+'"><div class="menu-image"><img src="assets/images/works/work-'+i+'.jpg"></div></a><div class="menu-caption" style="display: none"><a href="#" class="col-3 '+workLink+'"><h2></h2><p>Click to enlarge</p></a></div></li>';
   };
   $('ul.works').html(work);
 
