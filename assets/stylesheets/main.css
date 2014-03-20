@@ -322,3 +322,14 @@ background: -ms-linear-gradient(top,  #ffd3ef 0%,#ffffff 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #ffd3ef 0%,#ffffff 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd3ef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+
+.pens {
+    bottom: 5px;
+    width: 134px;
+    height: 256px;
+    position: absolute;
+    background-image: url('../images/back-pattern.png');
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-attachment: 
+}
