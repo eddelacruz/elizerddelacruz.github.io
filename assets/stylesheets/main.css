@@ -148,6 +148,7 @@ a:visited {
     width: 100%;
     height: 100%;
     display: none;
+    overflow: scroll;
 }
 
 .photo-viewer-overlay {
@@ -161,7 +162,8 @@ a:visited {
 }
 
 .photo-container {
-    position: fixed;    
+    /*position: fixed;    */
+    position: absolute;
     z-index: 2;
     width: 100%;
     height: 100%;
@@ -207,6 +209,7 @@ a:visited {
     width: 970px;
     height: 100%;
     min-height: 640px;
+    position: relative;
 }
 
 .menu .col-45 img {
@@ -233,11 +236,13 @@ a:visited {
 }*/
 
 .projects li {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 100%;
     float: left;
     margin: 10px 10px 10px 10px;
     font-size: 14px;
+    border-width: 20px;
+    border-color: #FFF;
 }
 
 .menu > li {
@@ -305,6 +310,46 @@ a:visited {
 .menu-caption p {
     /*text-align: left;*/
     padding: 0px 10px 0px 10px;
+}
+
+.about-container {
+    padding-top: 50px;
+    position: relative;
+}
+
+.about-image-container {
+    /*position: absolute;*/
+    float: left;
+    width: 35%
+}
+
+.about-image-container img {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.about-caption-container {
+    float: left;
+    position: relative;
+    /*text-align: center;*/
+    width: 60%;
+    color: #1a1a1a;
+    /*padding: 20px;*/
+}
+
+.about-caption-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    z-index: 0;
+}
+
+.about-caption {
+    position: absolute;
+    z-index: 1;
 }
 
 .ghost-title {

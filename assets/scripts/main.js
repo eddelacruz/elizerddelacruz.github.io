@@ -43,7 +43,6 @@ $(document).ready(function() {
     // console.log(a);
     // $('.photo img').css('src', a);
     document.getElementById("full-image").src = a;
-
     $('.photo-viewer-container').fadeIn(100);
   });
 
@@ -54,6 +53,34 @@ $(document).ready(function() {
   $('.photo-viewer-container').click(function() {
     $('.photo-viewer-container').fadeOut(100);
   });
+
+  $('#bcard').click(function() {
+    var a = $(this).attr('src');
+    document.getElementById("full-image").src = '../elizerddelacruz.github.io/assets/images/callcard.jpg';
+    
+    $('.photo-viewer-container').fadeIn(100);
+      
+    });
+
+  $('.photo-viewer-container').click(function() {
+    $('.photo-viewer-container').fadeOut(100);
+  });
+
+    $('#bcard').click(function() {
+    var a = $(this).attr('src');
+    document.getElementById("full-image").src = '../elizerddelacruz.github.io/assets/images/callcard.jpg';
+    
+    $('.photo-viewer-container').fadeIn(100);
+      
+    });
+
+  $('#lhead').click(function() {
+    var a = $(this).attr('src');
+    document.getElementById("full-image").src = '../elizerddelacruz.github.io/assets/images/letterhead.png';
+    
+    $('.photo-viewer-container').fadeIn(100);
+      
+    });
 
 });
 
