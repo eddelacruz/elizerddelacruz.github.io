@@ -75,15 +75,15 @@ a:visited {
 
 .header-container h2 {
     margin-top: 40%;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: 'AleoRegular';
     color: #ff177c;
+    font-size: 15px;
     /*font-size: 10px;*/
     /*position: absolute;*/
     /*float: left;*/
 }
-
 
 .header-container img {
     margin-top: 10px;
