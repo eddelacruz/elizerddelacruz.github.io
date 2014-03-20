@@ -44,9 +44,9 @@ $(document).ready(function() {
 
 var currentBackground = 0;
 var backgrounds = [];
-backgrounds[0] = '../elizerddelacruz.github.io/assets/images/stock/back6.jpg';
-backgrounds[1] = '../elizerddelacruz.github.io/assets/images/stock/back5.jpg';
-backgrounds[2] = '../elizerddelacruz.github.io/assets/images/stock/back4.jpg';
+backgrounds[0] = '../assets/images/stock/back6.jpg';
+backgrounds[1] = '../assets/images/stock/back5.jpg';
+backgrounds[2] = '../assets/images/stock/back4.jpg';
 
 function changeBackground() {
     currentBackground++;
